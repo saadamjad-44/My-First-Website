@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Falcon Web Developers</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-container">
+        <div class="brand">
+          <span class="brand-mark"><img src="/image/logo.png" alt="Logo"></span>
+          <span class="brand-name">Falcon Web Developers</span>
+        </div>
+        <nav class="site-nav">
+          <button class="nav-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero section observe fade-up">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <h1>Building digital experiences that soar.</h1>
+            <p>
+              Falcon Web Developers crafts modern, responsive websites tailored
+              to elevate brands and delight users.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#portfolio">View Portfolio</a>
+              <a class="btn secondary" href="#contact">Start a Project</a>
+            </div>
+          </div>
+          <div class="hero-illustration">
+            <div class="orbit">
+              <div class="planet"></div>
+              <div class="satellite"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about section observe fade-up">
+        <div class="container section-grid">
+          <div class="section-header">
+            <h2>About Us</h2>
+            <p>
+              We are a team of designers and developers dedicated to building
+              fast, accessible, and engaging web experiences.
+            </p>
+          </div>
+          <div class="section-body">
+            <p>
+              From concept to launch, we collaborate with clients to deliver
+              digital products that align with business goals and exceed user
+              expectations. Our expertise spans UI/UX design, modern front-end
+              development, and scalable architecture.
+            </p>
+            <ul class="about-highlights">
+              <li>10+ years crafting responsive interfaces</li>
+              <li>Dedicated support and post-launch optimization</li>
+              <li>Performance-first mindset with clean, maintainable code</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="services section observe fade-up">
+        <div class="container">
+          <div class="section-header center">
+            <h2>Services</h2>
+            <p>
+              Comprehensive digital solutions designed to elevate your brand.
+            </p>
+          </div>
+          <div class="card-grid">
+            <article class="card">
+              <h3>Custom Web Design</h3>
+              <p>
+                Tailored website designs that capture your brand and deliver
+                exceptional user experiences.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Front-end Development</h3>
+              <p>
+                Modern, responsive builds using the latest HTML, CSS, and
+                JavaScript best practices.
+              </p>
+            </article>
+            <article class="card">
+              <h3>Maintenance & Growth</h3>
+              <p>
+                Continuous support, optimization, and enhancements to keep your
+                product performing.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="portfolio section observe fade-up">
+        <div class="container">
+          <div class="section-header center">
+            <h2>Portfolio</h2>
+            <p>Recent work that showcases our capabilities and attention.</p>
+          </div>
+          <div class="portfolio-grid">
+            <figure class="portfolio-item">
+              <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=900&q=80" alt="Creative agency landing page" />
+              <figcaption>Creative Agency Landing</figcaption>
+            </figure>
+            <figure class="portfolio-item">
+              <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80" alt="Collaborative workspace app" />
+              <figcaption>Collaboration Platform</figcaption>
+            </figure>
+            <figure class="portfolio-item">
+              <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=900&q=80" alt="E-commerce storefront" />
+              <figcaption>E-commerce Experience</figcaption>
+            </figure>
+            <figure class="portfolio-item">
+              <img src="https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?auto=format&fit=crop&w=900&q=80" alt="Startup landing page" />
+              <figcaption>Startup Launchpad</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section observe fade-up">
+        <div class="container section-grid">
+          <div class="section-header">
+            <h2>Contact</h2>
+            <p>
+              Ready to elevate your web presence? Share your project details and
+              we’ll get back within 24 hours.
+            </p>
+          </div>
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="name@example.com"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Project Details</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Tell us about your project..."
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn primary">Send Message</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer observe fade-up">
+      <div class="container footer-content">
+        <p>&copy; <span id="year"></span> Falcon Web Developers. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#services">Services</a>
+          <a href="#portfolio">Work</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
